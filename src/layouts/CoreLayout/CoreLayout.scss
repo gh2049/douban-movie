@@ -1,0 +1,12 @@
+.core-layout__viewport {
+  padding-top: 4rem;
+}
+.main {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transition: transform 0.3s ease;
+}
+.drawer-open {
+	transform: translateX(80%);
+}

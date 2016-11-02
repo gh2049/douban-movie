@@ -1,0 +1,56 @@
+$rem: 67.5/rem;
+
+.route--active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.navheader {
+	box-sizing: content-box;
+	height: 135/$rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #036bc4;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.35);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.35);
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  z-index: 10;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  h1{
+		font-size: 20px;
+    font-weight: bold;
+    line-height: 135/$rem;
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: 135/$rem;
+    right: 135/$rem;
+    top: 0;
+    margin: 0 !important;
+    color:#fff;
+	}
+
+}
+.test-height {
+	height: 1000px;
+}
+.logo {
+	width: 240/$rem;
+	height: 88/$rem;
+	padding: 26/$rem 17/$rem 21/$rem;
+}
+
+
+.menuBtn {
+	width: 135/$rem;
+	height: 135/$rem;
+	background: url('./assets/menu.png') no-repeat;
+	background-size: 75/$rem 75/$rem;
+	background-position: center center;
+}
+
