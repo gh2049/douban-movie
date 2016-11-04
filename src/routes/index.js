@@ -16,6 +16,7 @@ export const createRoutes = (store) => ({
   component: CoreLayout,
   indexRoute: Home,
   childRoutes: [
+    Home(store),
     CounterRoute(store),
     ZenRoute(store),
     ElapseRoute(store),

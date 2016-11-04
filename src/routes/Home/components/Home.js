@@ -1,12 +1,12 @@
 import React from 'react'
-import './Content.scss'
+import './Home.scss'
 import jpg1 from './assets/1.jpg'
 import jpg2 from './assets/2.jpg'
 import jpg3 from './assets/3.jpg'
 import { IndexLink, Link } from 'react-router'
 
 
-export const Content = ({children}) => {
+export const Home = ({fetchHome,home}) => {
   return (
     <div className="wrapper">
       
@@ -88,12 +88,14 @@ export const Content = ({children}) => {
         <IndexLink to='/zen'>
           Zen 
         </IndexLink>
-          <div>
-            {children}
-          </div>
+          
       </section>
     </div>
 )}
 
+// Content.con = () =>{
+//   console.log(this)
+// }
 
-export default Content
+
+export default Home

@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
-// import Header from '../../components/Header'
-import Content from '../../components/Content'
+//import Header from '../../components/Header'
+
 import MovieHeader from '../../components/MovieHeader'
 import Navdrawer from '../../components/Navdrawer'
 
@@ -11,9 +11,10 @@ export class CoreLayout extends Component {
 	render() {
 		return (  
 			<div className='container'>
-				<div className="main drawer-open" ref="main">
+				<div className="main" ref="main">
 					<MovieHeader toggleDrawer={this.toggleNavdrawer.bind(this)}/>
-					<Content />
+          {this.props.children}
+          
 				</div>
 				<Navdrawer />
   		</div>
@@ -21,24 +22,23 @@ export class CoreLayout extends Component {
 	}
 
 	toggleNavdrawer(){
-		// console.log('toggle!')
-		// console.log(this)
+		console.log(this)
 		this.refs.main.classList.toggle('drawer-open')
 	}
 }
 
-CoreLayout.propTypes = {
-  children: React.PropTypes.element.isRequired
-}
 
 export default CoreLayout
 
-/*
-export const CoreLayout = ({ children }) => (
-  <div className='container'>
-		<div className='core-layout__viewport'>
-  		{children}
- 		</div>
-  </div>
-) 
-*/
+
+// export const CoreLayout = ({ children }) => (
+//   <div className='container'>
+// 		<div className='core-layout__viewport'>
+//   		{children}
+//  		</div>
+//   </div>
+// ) 
+
+// CoreLayout.propTypes = {
+//   children: React.PropTypes.element.isRequired
+// }

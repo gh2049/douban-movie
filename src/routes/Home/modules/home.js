@@ -1,68 +1,62 @@
-// import 'fetch-detector';
-// import 'fetch-ie8';
-// import 'imports?this=>global!exports?global.fetch!whatwg-fetch';
 import 'babel-polyfill'
 import fetch from 'isomorphic-fetch'
 // ------------------------------------
 // Constants
 // ------------------------------------
-const RECEIVE_ZEN = 'RECEIVE_ZEN'
-const REQUEST_ZEN = 'REQUEST_ZEN'
-const CLEAR_ZEN = 'CLEAR_ZEN'
- 
+const RECEIVE_Home = 'RECEIVE_Home'
+const REQUEST_Home = 'REQUEST_Home'
+const CLEAR_Home = 'CLEAR_Home'
+
 // ------------------------------------
 // Actions
 // ------------------------------------
 
 
-function requestZen () {
+function requestHome () {
   return {
-    type: REQUEST_ZEN
+    type: REQUEST_Home
   }
 }
 
 let avaliableId = 0
-export const receiveZen = (value) => ({
-  type: RECEIVE_ZEN,
+export const receiveHome = (value) => ({
+  type: RECEIVE_Home,
   payload: {
     text: value,
     id: avaliableId++
   }
 })
 
-export const clearZen = () => ({
-  type: CLEAR_ZEN
+export const clearHome = () => ({
+  type: CLEAR_Home
 })
 
-export function fetchZen () {
+export function fetchHome () {
   return (dispatch, getState) => {
-    if (getState().zen.fetching) return
-    dispatch(requestZen())
-    return fetch('https://api.github.com/zen')
+    if (getState().Home.fetching) return
+    dispatch(requestHome())
+    return fetch('https://api.douban.com/v2/movie/in_theaters')
       .then(data => data.text())
-      .then(text => dispatch(receiveZen(text)))
+      .then(text => dispatch(receiveHome(text)))
   }
 }
 
 export const actions = {
-  requestZen,
-  receiveZen,
-  clearZen,
-  fetchZen
+  requestHome,
+  receiveHome,
+  clearHome,
+  fetchHome
 }
 
 // ------------------------------------
 // Action Handlers
 // ------------------------------------
 const ACTION_HANDLERS = {
-  [REQUEST_ZEN]: (state) => {
+  [REQUEST_Home]: (state) => {
     return ({...state, fetching: true})
   },
-  [RECEIVE_ZEN]: (state, action) => {
-    return ({...state, fetching: false, text: state.text.concat(action.payload)})
-  },
-  [CLEAR_ZEN]: (state) => {
-    return ({...state, text: []})
+  [RECEIVE_Home]: (state, action) => {
+    return ({...state, fetching: false, text: state.text})
   }
 }
 

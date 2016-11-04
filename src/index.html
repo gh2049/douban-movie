@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <script>
-	(function () {
+	(function (window) {
 		var width = document.documentElement.clientWidth
 		var htmlNode = document.querySelector('html')
 		htmlNode.style.fontSize = width/16 + 'px'
-	})()
+	})(window)
 </script>
 <body>
   <div id="root" style="height: 100%"></div>
