@@ -1,5 +1,5 @@
-import 'babel-polyfill'
-import fetch from 'isomorphic-fetch'
+// import 'babel-polyfill'
+// import fetch from 'isomorphic-fetch'
 // ------------------------------------
 // Constants
 // ------------------------------------
@@ -31,13 +31,26 @@ export const clearHome = () => ({
   type: CLEAR_Home
 })
 
+import fetchJsonp from 'fetch-jsonp'
 export function fetchHome () {
   return (dispatch, getState) => {
-    if (getState().Home.fetching) return
-    dispatch(requestHome())
-    return fetch('https://api.douban.com/v2/movie/in_theaters')
-      .then(data => data.text())
-      .then(text => dispatch(receiveHome(text)))
+    // require('es6-promise').polyfill()
+    
+    fetchJsonp('http://api.douban.com/v2/movie/subject/1764796')
+    .then(function(response) {
+      return response.json()
+    }).then(function(json) {
+      console.log('parsed json', json)
+    }).catch(function(ex) {
+      console.log('parsing failed', ex)
+    })
+
+    // $.getJSON("http://api.douban.com/v2/movie/subject/1764796&jsoncallback=?",
+    //   function (data) {
+    //       console.log(data)
+    //   }
+    // )
+    // dispatch(receiveHome(text)))
   }
 }
 

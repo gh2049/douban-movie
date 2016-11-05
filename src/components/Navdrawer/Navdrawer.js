@@ -2,7 +2,14 @@ import React,{Component} from 'react'
 import './Navdrawer.scss'
 
 export class Navdrawer extends Component {
+  componentWillMount() {
+
+  }
   render() {
+
+  	const {toggleNavdrawer} = this.props
+		
+		
 	  return(
 		  <aside className="aside-page">
 		    <header>
@@ -17,7 +24,7 @@ export class Navdrawer extends Component {
 		    	</div>
 	    		<div>
 	    			<ul>
-	    				<li>首页</li>
+	    				<li onClick={toggleNavdrawer}>首页</li>
 	    				<li>电视剧</li>
 	    				<li>排行榜</li>
 	    				<li>分类</li>

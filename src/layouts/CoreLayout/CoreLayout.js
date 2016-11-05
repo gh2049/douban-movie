@@ -14,15 +14,13 @@ export class CoreLayout extends Component {
 				<div className="main" ref="main">
 					<MovieHeader toggleDrawer={this.toggleNavdrawer.bind(this)}/>
           {this.props.children}
-          
 				</div>
-				<Navdrawer />
+				<Navdrawer toggleNavdrawer={this.toggleNavdrawer.bind(this)}/>
   		</div>
   	)
 	}
 
 	toggleNavdrawer(){
-		console.log(this)
 		this.refs.main.classList.toggle('drawer-open')
 	}
 }
