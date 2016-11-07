@@ -1,38 +1,33 @@
 import React,{Component} from 'react'
+import { IndexLink, Link } from 'react-router'
 import './Navdrawer.scss'
 
 export class Navdrawer extends Component {
-  componentWillMount() {
-
-  }
   render() {
-
   	const {toggleNavdrawer} = this.props
-		
-		
 	  return(
-		  <aside className="aside-page">
-		    <header>
-		    	<h2>
-		    		<img src="https://img3.doubanio.com/pics/cardkit/logo.png" alt="douban"/>
-		    		<input placeholder="电影、影人、影院、电视剧"></input>
-		    	</h2>
-		    </header>
-		    <section>
-		    	<div className="selection-tab">
-		    			<span>电影</span>
-		    	</div>
-	    		<div>
-	    			<ul>
-	    				<li onClick={toggleNavdrawer}>首页</li>
-	    				<li>电视剧</li>
-	    				<li>排行榜</li>
-	    				<li>分类</li>
-	    				<li>影评</li>
-	    			</ul>
-	    		</div>
-		    </section>
-		  </aside>
+		<aside className="aside-page">
+		<header>
+			<h2>
+				<img src="https://img3.doubanio.com/pics/cardkit/logo.png" alt="douban"/>
+				<input placeholder="电影、影人、影院、电视剧"></input>
+			</h2>
+		</header>
+		<section>
+			<div className="selection-tab">
+				<span>电影</span>
+			</div>
+			<div>
+				<ul>
+					<li onClick={toggleNavdrawer}><IndexLink to="/">首页</IndexLink></li>
+					<li onClick={toggleNavdrawer}><Link to="/">电视剧</Link></li>
+					<li onClick={toggleNavdrawer}><Link to="/">Top250</Link></li>
+					<li onClick={toggleNavdrawer}><Link to="/">分类</Link></li>
+					<li onClick={toggleNavdrawer}><Link to="/">影评</Link></li>
+				</ul>
+			</div>
+		</section>
+		</aside>
 	  )
   }
 } 

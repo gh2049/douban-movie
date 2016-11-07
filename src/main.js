@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import createStore from './store/createStore'
 import AppContainer from './containers/AppContainer'
 
-$.ajaxSettings.crossDomain = true;
 require('es6-promise').polyfill();
 // ========================================================
 // Store Instantiation
