@@ -22,7 +22,7 @@ export class Navdrawer extends Component {
 				<div>
 					<ul>
 						<li onClick={toggleNavdrawer}><IndexLink to="/home">热门 </IndexLink></li>
-						<li onClick={toggleNavdrawer}><Link to="/Top250">Top250 </Link></li>
+						<li onClick={toggleNavdrawer}><Link to="/counter">Top250 </Link></li>
 						<li onClick={toggleNavdrawer}><Link to="/zen">影评 </Link></li>
 						<li onClick={toggleNavdrawer}><Link to="/tv">电视剧 </Link></li>
 						<li onClick={toggleNavdrawer}><Link to="/elapse">分类 </Link></li>
@@ -38,10 +38,11 @@ export class Navdrawer extends Component {
 		 			formNode = searchNode.parentNode
 
 		formNode.addEventListener('submit',()=>{
-			console.log(searchNode.value)
-			console.log(this)
 			const history = this.props.history
-			history.push(null, '/search/'+searchNode.value)
+			console.log(history)
+			history.push('/zen')
+			this.props.toggleNavdrawer()
+			//this._reactInternalInstance._context.router.push('/zen')
 			return false
 		})
 	}

@@ -93,10 +93,6 @@ export default class Home extends Component {
               </div>
             </div>
           </article>
-          <IndexLink to='/zen'>
-            Zen 
-          </IndexLink>
-            
         </section>
       </div>
     )

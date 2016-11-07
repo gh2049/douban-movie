@@ -41,6 +41,9 @@
     		background-repeat: no-repeat;
     		text-indent: 32px;
     		margin-bottom: 15px;
+				&:focus {
+					background-color: #a0a0a0
+				}
 			}
 		}	
 	}
