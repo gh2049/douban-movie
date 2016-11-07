@@ -1,8 +1,5 @@
-// import 'fetch-detector';
-// import 'fetch-ie8';
-// import 'imports?this=>global!exports?global.fetch!whatwg-fetch';
-import 'babel-polyfill'
-import fetch from 'isomorphic-fetch'
+// import 'babel-polyfill'
+// import fetch from 'isomorphic-fetch'
 // ------------------------------------
 // Constants
 // ------------------------------------

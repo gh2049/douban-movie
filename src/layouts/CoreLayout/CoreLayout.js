@@ -15,7 +15,7 @@ export class CoreLayout extends Component {
 					<MovieHeader toggleDrawer={this.toggleNavdrawer.bind(this)}/>
           {this.props.children}
 				</div>
-				<Navdrawer toggleNavdrawer={this.toggleNavdrawer.bind(this)}/>
+				<Navdrawer toggleNavdrawer={this.toggleNavdrawer.bind(this)} history={this.props.history}/>
   		</div>
   	)
 	}
@@ -25,18 +25,4 @@ export class CoreLayout extends Component {
 	}
 }
 
-
 export default CoreLayout
-
-
-// export const CoreLayout = ({ children }) => (
-//   <div className='container'>
-// 		<div className='core-layout__viewport'>
-//   		{children}
-//  		</div>
-//   </div>
-// ) 
-
-// CoreLayout.propTypes = {
-//   children: React.PropTypes.element.isRequired
-// }

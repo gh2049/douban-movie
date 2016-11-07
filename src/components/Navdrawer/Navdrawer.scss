@@ -1,3 +1,8 @@
+.route--active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .aside-page {
 	position: fixed;
 	top: 0;
@@ -14,6 +19,10 @@
 		h2{
 			margin: 0;
 			padding: 10px 0 10px 0;
+			form {
+				float: right;
+				width: 75%;
+			}
 			img{
 				width: 50px;
 				padding-top: 5px;
@@ -22,7 +31,7 @@
 				border-style: none;
 				outline: none;
 				float: right;
-				width: 70%;
+				width: 100%;
 				height: 1.4rem;
 				font-size: 14px;
 				border-radius: 5px;
@@ -40,7 +49,7 @@
 		.selection-tab {
 			padding: 5px 0 5px 15px;
 			background: #3b3b3b;
-    	color: #919191;
+    		color: #919191;
 		}
 		ul {
 			padding: 0;
@@ -49,11 +58,17 @@
 			li {
 				list-style: none;
 				overflow: hidden;
-		    padding: 13px 15px 13px 0;
-		    font-size: 15px;
-		    color: #fff;
-		    margin-left: 15px;
-		    border-bottom: 1px solid #282828;
+				padding: 0 15px 0 0;
+				font-size: 15px;
+				color: #fff;
+				margin-left: 15px;
+				border-bottom: 1px solid #282828;
+				a {
+					display: block;
+					width: 100%;
+					height: 45px;
+					line-height: 45px;
+				}
 			}
 		}
 	}

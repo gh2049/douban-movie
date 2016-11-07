@@ -1,5 +1,3 @@
-// import 'babel-polyfill'
-// import fetch from 'isomorphic-fetch'
 // ------------------------------------
 // Constants
 // ------------------------------------
@@ -11,53 +9,36 @@ const CLEAR_Home = 'CLEAR_Home'
 // Actions
 // ------------------------------------
 
-
 function requestHome () {
   return {
     type: REQUEST_Home
   }
 }
 
-let avaliableId = 0
 export const receiveHome = (value) => ({
   type: RECEIVE_Home,
-  payload: {
-    text: value,
-    id: avaliableId++
-  }
-})
-
-export const clearHome = () => ({
-  type: CLEAR_Home
+  text: value
 })
 
 import fetchJsonp from 'fetch-jsonp'
 export function fetchHome () {
   return (dispatch, getState) => {
-    // require('es6-promise').polyfill()
-    
-    fetchJsonp('http://api.douban.com/v2/movie/subject/1764796')
+    dispatch(requestHome())
+    fetchJsonp('http://api.douban.com/v2/movie/in_theaters')
     .then(function(response) {
       return response.json()
     }).then(function(json) {
       console.log('parsed json', json)
+      dispatch(receiveHome(json))
     }).catch(function(ex) {
       console.log('parsing failed', ex)
     })
-
-    // $.getJSON("http://api.douban.com/v2/movie/subject/1764796&jsoncallback=?",
-    //   function (data) {
-    //       console.log(data)
-    //   }
-    // )
-    // dispatch(receiveHome(text)))
   }
 }
 
 export const actions = {
   requestHome,
   receiveHome,
-  clearHome,
   fetchHome
 }
 
@@ -66,10 +47,10 @@ export const actions = {
 // ------------------------------------
 const ACTION_HANDLERS = {
   [REQUEST_Home]: (state) => {
-    return ({...state, fetching: true})
+    return ({...state, fetching: true,getValue:false})
   },
   [RECEIVE_Home]: (state, action) => {
-    return ({...state, fetching: false, text: state.text})
+    return ({...state, fetching: false, text: action.text, getValue:true})
   }
 }
 
@@ -78,7 +59,8 @@ const ACTION_HANDLERS = {
 // ------------------------------------
 const initialState = {
   fetching: false,
-  text: []
+  getValue: false,
+  text: {}
 }
 export default function (state = initialState, action) {
   const handler = ACTION_HANDLERS[action.type]

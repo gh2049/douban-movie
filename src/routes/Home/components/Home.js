@@ -7,13 +7,14 @@ import { IndexLink, Link } from 'react-router'
 
 export default class Home extends Component {
   componentWillMount() {
-    const {fetchHome,Home} = this.props
-
-    //fetchHome()
-    console.log(this.props)
+    const {fetchHome,home} = this.props
+    if(home.getValue) return
+    fetchHome()
+    //console.log('componentWillMount')
   }
-  
   render() {
+    const {home} = this.props
+    if(!home.getValue) return (<div>fetching</div>)
     return (
       <div className="wrapper">
         
@@ -100,5 +101,12 @@ export default class Home extends Component {
       </div>
     )
   }
+  
+  componentWillReceiveProps(nextProps) {
+    //console.log('componentWillReceiveProps',nextProps)
+  }
+  componentWillUpdate(nextProps, nextState) {
+    //console.log('componentWillUpdate',nextProps)
+    //console.log('componentWillUpdate',nextState)  
+  }
 }
-
