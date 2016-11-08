@@ -2,7 +2,7 @@ $rem: 67.5/rem;
 
 .wrapper {
 	box-sizing: content-box;
-	background-color: #fff;
+	background: #f2f2f2;
 	width: 100%;
 	height: 100%;
 }
@@ -32,11 +32,12 @@ $rem: 67.5/rem;
 	-moz-box-shadow: 0 0px 2px 0 rgba(0,0,0,0.2);
 	box-shadow: 0 0px 2px 0 rgba(0,0,0,0.2);
 	word-wrap: break-word;
+	margin-bottom: 10px;
 }
 .list-wrap {
 	overflow: hidden;
 	box-sizing: border-box;
-  margin: 0 15px;
+  margin: 0 5px;
   padding: 10px 0;
 }
 .item {

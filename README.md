@@ -33,6 +33,17 @@
 │           └── routes **    # 不规则子路由(** 可选择的)
 └── tests                    # 单元测试
 ```
+## 豆瓣 api
+本项目使用的是 [douban v2版API](https://developers.douban.com/wiki/?title=movie_v2)，某些高级接口未开放权限，无法调用其接口。
+
+公开 API 如下：
+- 正在上映 : /v2/movie/in_theaters
+- 即将上映 : /v2/movie/coming_soon
+- 电影条目 : /v2/movie/subject/:id
+- 影人条目 : /v2/movie/celebrity/:id
+- 电影条目搜索 : /v2/movie/search?q={text}
+- Top250 :  /v2/movie/top250
+- 北美票房榜 ： /v2/movie/us_box
 
 ## 感谢
 [React脚手架](https://github.com/bodyno/react-starter-kit)

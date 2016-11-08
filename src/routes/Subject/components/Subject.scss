@@ -1,0 +1,29 @@
+.cbox-unit {
+  vertical-align: middle;
+  background: #f6f6f6;
+  margin: 10px;
+  .unit-wrap {
+    padding: 15px 10px;
+  }
+}
+.subject{
+  text-align: center;
+  a {
+    display: inline-block;
+    font-size: 13px;
+    vertical-align: middle;
+    img {
+      width: 156px;
+    }  
+  }
+  .movie-poster-more{
+    padding: 10px;
+    background: #fff;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  .rating-member{
+      display: inline;
+  }
+}

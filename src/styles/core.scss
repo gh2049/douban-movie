@@ -28,8 +28,9 @@ body{
 }
 
 a{
-  color:#fff;
-  text-decoration: none;
+    text-decoration: none;
+    color: #006ae2;
+    -webkit-tap-highlight-color: rgba(0,119,220,0.2);
 }
 
 .container{
