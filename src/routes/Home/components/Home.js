@@ -8,9 +8,10 @@ import { IndexLink, Link } from 'react-router'
 export default class Home extends Component {
   componentWillMount() {
     const {fetchHome,home} = this.props
+
     if(home.getValue) return
+    
     fetchHome()
-    //console.log('componentWillMount')
   }
   render() {
     const {home} = this.props

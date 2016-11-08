@@ -36,18 +36,15 @@ export class Navdrawer extends Component {
 	componentDidMount() {
 		const searchNode = this.refs.searchNode,
 		 			formNode = searchNode.parentNode
-
-		formNode.addEventListener('submit',()=>{
+		
+		formNode.addEventListener('submit',() => {
 			const history = this.props.history
-			console.log(history)
-			history.push('/zen')
+			history.push('/search/'+searchNode.value)
 			this.props.toggleNavdrawer()
-			//this._reactInternalInstance._context.router.push('/zen')
+			//or use this._reactInternalInstance._context.router.push('/zen')
 			return false
 		})
 	}
-	
-
 } 
 
 export default Navdrawer

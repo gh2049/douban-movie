@@ -25,14 +25,16 @@ export function fetchHome () {
   return (dispatch, getState) => {
     dispatch(requestHome())
     fetchJsonp('http://api.douban.com/v2/movie/in_theaters')
-    .then(function(response) {
-      return response.json()
-    }).then(function(json) {
-      console.log('parsed json', json)
-      dispatch(receiveHome(json))
-    }).catch(function(ex) {
-      console.log('parsing failed', ex)
-    })
+      .then(function(response) {
+        return response.json()
+      })
+      .then(function(json) {
+        console.log('parsed json', json)
+        dispatch(receiveHome(json))
+      })
+      .catch(function(ex) {
+        console.log('parsing failed', ex)
+      })
   }
 }
 
