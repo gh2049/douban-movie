@@ -9,6 +9,7 @@
 	z-index: 1;
 	padding-top: 2rem;
   background: #fff;
+	overflow-y: auto; 
 }
 .drawer-open {
 	transform: translateX(80%);

@@ -4,9 +4,9 @@ import './Subject.scss';
 class Subject extends Component {
   render() {
     return (
-      <div>
+      <div className="cbox-wrap">
         <div className="cbox-unit">
-            <article className="unit-wrap">
+            <article className="subject-wrap">
               <section>
                 <div className="subject">
                   <a href="https://movie.douban.com/subject/26683290/photos?type=R" className="movie-poster-more content" title="你的名字。 君の名は。">
@@ -40,6 +40,41 @@ class Subject extends Component {
               </section>
             </article>
           </div>
+          
+          <header className="title-wrap">
+            <h2>
+              <a href="#"></a>
+              <span>演职员表</span>
+            </h2>
+          </header>
+          
+          <section className="clearfix">
+              <div className="actor-wrap fl text-center">
+                <div className="text-center">
+                  <img src="http://img3.doubanio.com/img/celebrity/medium/1118.jpg" alt=""/>
+                </div>
+                <span>新海诚</span><span>（导演）</span>
+              </div>
+              <div className="actor-wrap fl text-center">
+                <div  className="text-center">
+                    <img src="http://img3.doubanio.com/img/celebrity/medium/1118.jpg" alt=""/>
+                  </div>
+                  <span>新海诚</span><span>（导演）</span>
+              </div>
+              <div className="actor-wrap fl text-center">
+                <div  className="text-center">
+                    <img src="http://img3.doubanio.com/img/celebrity/medium/1118.jpg" alt=""/>
+                  </div>
+                  <span>新海诚</span><span>（导演）</span>
+              </div>
+              <div className="actor-wrap fl text-center">
+                <div  className="text-center">
+                    <img src="http://img3.doubanio.com/img/celebrity/medium/1118.jpg" alt=""/>
+                  </div>
+                  <span>新海诚</span><span>（导演）</span>
+              </div>
+          </section>
+
       </div>
           
     );

@@ -19,11 +19,7 @@ export default class Home extends Component {
     if(!home.getValue) return (<div>fetching</div>)
     return (
       <div className="wrapper">
-        
         <div className="banner-unit"></div>
-        
-
-
         <section className="list-unit hot-movies">
           
           <header className="title-wrap">

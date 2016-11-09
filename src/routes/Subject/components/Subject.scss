@@ -1,9 +1,13 @@
+.cbox-wrap {
+  background: #f6f6f6;
+}
 .cbox-unit {
   vertical-align: middle;
+  padding: 10px;
   background: #f6f6f6;
-  margin: 10px;
-  .unit-wrap {
+  .subject-wrap {
     padding: 15px 10px;
+    background: #f6f6f6;
   }
 }
 .subject{
@@ -23,7 +27,22 @@
   h1 {
     font-size: 18px;
   }
-  .rating-member{
+  .rating_num {
+    padding-right: 10px;
+  }
+  .rating-member {
       display: inline;
+  }
+  .content{
+    line-height:1rem;
+  }
+}
+
+.actor-wrap {
+  width: 50%;
+  padding-top: 10px;
+  img {
+    padding: 10px;
+    background: #fff;
   }
 }

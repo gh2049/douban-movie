@@ -31,7 +31,7 @@ export class Navdrawer extends Component {
 					</div>
 				</section>
 			</aside>
-		)
+		) 
 	}
 
 	componentDidMount() {
