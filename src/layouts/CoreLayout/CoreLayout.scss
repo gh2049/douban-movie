@@ -14,3 +14,14 @@
 .drawer-open {
 	transform: translateX(80%);
 }
+.title-wrap {
+	padding: 10px 15px 10px 5px;
+}
+.title-wrap h2 {
+	margin: 0;
+	font-size: 15px;
+	color: #8e8e8e;
+	background:url('../../static/clickable.png') no-repeat;
+	background-position: right;
+  background-size: 5.5px 10px;
+}

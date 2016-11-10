@@ -9,6 +9,7 @@ import PageNotFound from './PageNotFound'
 import Redirect from './PageNotFound/redirect'
 import Search from './Search'
 import Subject from './Subject';
+import Clelebrity from './Celebrity'
 
 /*  Note: Instead of using JSX, we recommend using react-router
     PlainRoute objects to build route definitions.   */
@@ -26,6 +27,7 @@ export const createRoutes = (store) => ({
     PageNotFound(),
     Search(store),
     Subject(store),
+    Clelebrity(store),
     Redirect
   ]
 })

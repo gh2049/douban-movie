@@ -47,11 +47,21 @@
   line-height: 1.5;
 }
 
-.actor-wrap {
+.actor-wrap,.celebrity-wrap {
   width: 50%;
   padding-top: 10px;
   img {
     padding: 10px;
     background: #fff;
   }
+  .celebrity{
+    padding-top: 25%;
+    .celebrity-name {
+      font-size: 16px;
+    }
+    .celebrity-detail {
+      padding-left: 5px; 
+    }
+  }
+
 }

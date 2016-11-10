@@ -9,17 +9,19 @@ import '../../styles/core.scss'
 
 export class CoreLayout extends Component {
 	render() {
+		const	toggleDrawer = this.toggleNavdrawer
+
 		return (  
 			<div className='container'>
 				<div className="main" ref="main">
-					<MovieHeader toggleDrawer={this.toggleNavdrawer.bind(this)}/>
+					<MovieHeader toggleDrawer={toggleDrawer.bind(this)}/>
           {this.props.children}
 				</div>
-				<Navdrawer toggleNavdrawer={this.toggleNavdrawer.bind(this)} history={this.props.history}/>
+				<Navdrawer toggleNavdrawer={toggleDrawer.bind(this)} history={this.props.history}/>
   		</div>
   	)
 	}
-
+	
 	toggleNavdrawer(){
 		this.refs.main.classList.toggle('drawer-open')
 	}

@@ -1,0 +1,539 @@
+{
+    "mobile_url": "https://movie.douban.com/celebrity/1005177/mobile",
+    "aka_en": [
+        "しんかい まこと(假名)",
+        "The New Hayao Miyazaki(昵称)",
+        "Makoto Niitsu(本名)",
+        "Shinkai Makoto"
+    ],
+    "name": "新海诚",
+    "works": [
+        {
+            "roles": [
+                "导演",
+                "编剧"
+            ],
+            "subject": {
+                "rating": {
+                    "max": 10,
+                    "average": 8.9,
+                    "stars": "45",
+                    "min": 0
+                },
+                "genres": [
+                    "剧情",
+                    "爱情",
+                    "动画"
+                ],
+                "title": "你的名字。",
+                "casts": [
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1185637/",
+                        "avatars": {
+                            "small": "http://img3.doubanio.com/img/celebrity/small/13768.jpg",
+                            "large": "http://img3.doubanio.com/img/celebrity/large/13768.jpg",
+                            "medium": "http://img3.doubanio.com/img/celebrity/medium/13768.jpg"
+                        },
+                        "name": "神木隆之介",
+                        "id": "1185637"
+                    },
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1316660/",
+                        "avatars": {
+                            "small": "http://img3.doubanio.com/img/celebrity/small/1445093052.07.jpg",
+                            "large": "http://img3.doubanio.com/img/celebrity/large/1445093052.07.jpg",
+                            "medium": "http://img3.doubanio.com/img/celebrity/medium/1445093052.07.jpg"
+                        },
+                        "name": "上白石萌音",
+                        "id": "1316660"
+                    },
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1018667/",
+                        "avatars": {
+                            "small": "http://img7.doubanio.com/img/celebrity/small/36735.jpg",
+                            "large": "http://img7.doubanio.com/img/celebrity/large/36735.jpg",
+                            "medium": "http://img7.doubanio.com/img/celebrity/medium/36735.jpg"
+                        },
+                        "name": "长泽雅美",
+                        "id": "1018667"
+                    }
+                ],
+                "collect_count": 70037,
+                "original_title": "君の名は。",
+                "subtype": "movie",
+                "directors": [
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1005177/",
+                        "avatars": {
+                            "small": "http://img3.doubanio.com/img/celebrity/small/1118.jpg",
+                            "large": "http://img3.doubanio.com/img/celebrity/large/1118.jpg",
+                            "medium": "http://img3.doubanio.com/img/celebrity/medium/1118.jpg"
+                        },
+                        "name": "新海诚",
+                        "id": "1005177"
+                    }
+                ],
+                "year": "2016",
+                "images": {
+                    "small": "http://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2395733377.jpg",
+                    "large": "http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2395733377.jpg",
+                    "medium": "http://img3.doubanio.com/view/movie_poster_cover/spst/public/p2395733377.jpg"
+                },
+                "alt": "https://movie.douban.com/subject/26683290/",
+                "id": "26683290"
+            }
+        },
+        {
+            "roles": [
+                "导演",
+                "摄影",
+                "美术设计",
+                "编剧"
+            ],
+            "subject": {
+                "rating": {
+                    "max": 10,
+                    "average": 8.7,
+                    "stars": "45",
+                    "min": 0
+                },
+                "genres": [
+                    "动画",
+                    "奇幻",
+                    "短片"
+                ],
+                "title": "猫的集会",
+                "casts": [
+                    {
+                        "alt": null,
+                        "avatars": null,
+                        "name": "寺崎裕香",
+                        "id": null
+                    },
+                    {
+                        "alt": null,
+                        "avatars": null,
+                        "name": "中川玲",
+                        "id": null
+                    },
+                    {
+                        "alt": null,
+                        "avatars": null,
+                        "name": "前田刚",
+                        "id": null
+                    }
+                ],
+                "collect_count": 7930,
+                "original_title": "猫の集会",
+                "subtype": "movie",
+                "directors": [
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1005177/",
+                        "avatars": {
+                            "small": "http://img3.doubanio.com/img/celebrity/small/1118.jpg",
+                            "large": "http://img3.doubanio.com/img/celebrity/large/1118.jpg",
+                            "medium": "http://img3.doubanio.com/img/celebrity/medium/1118.jpg"
+                        },
+                        "name": "新海诚",
+                        "id": "1005177"
+                    }
+                ],
+                "year": "2007",
+                "images": {
+                    "small": "http://img7.doubanio.com/view/movie_poster_cover/ipst/public/p1967778032.jpg",
+                    "large": "http://img7.doubanio.com/view/movie_poster_cover/lpst/public/p1967778032.jpg",
+                    "medium": "http://img7.doubanio.com/view/movie_poster_cover/spst/public/p1967778032.jpg"
+                },
+                "alt": "https://movie.douban.com/subject/21945191/",
+                "id": "21945191"
+            }
+        },
+        {
+            "roles": [
+                "导演",
+                "编剧"
+            ],
+            "subject": {
+                "rating": {
+                    "max": 10,
+                    "average": 8.7,
+                    "stars": "45",
+                    "min": 0
+                },
+                "genres": [
+                    "动画",
+                    "短片"
+                ],
+                "title": "15名动画人",
+                "casts": [
+                    {
+                        "alt": null,
+                        "avatars": null,
+                        "name": "寺崎裕香",
+                        "id": null
+                    },
+                    {
+                        "alt": null,
+                        "avatars": null,
+                        "name": "中川玲",
+                        "id": null
+                    },
+                    {
+                        "alt": null,
+                        "avatars": null,
+                        "name": "前田剛",
+                        "id": null
+                    }
+                ],
+                "collect_count": 24227,
+                "original_title": "アニ＊クリ15",
+                "subtype": "tv",
+                "directors": [
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1314381/",
+                        "avatars": {
+                            "small": "http://img7.doubanio.com/img/celebrity/small/23745.jpg",
+                            "large": "http://img7.doubanio.com/img/celebrity/large/23745.jpg",
+                            "medium": "http://img7.doubanio.com/img/celebrity/medium/23745.jpg"
+                        },
+                        "name": "前田真宏",
+                        "id": "1314381"
+                    },
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1314153/",
+                        "avatars": {
+                            "small": "http://img3.doubanio.com/img/celebrity/small/52037.jpg",
+                            "large": "http://img3.doubanio.com/img/celebrity/large/52037.jpg",
+                            "medium": "http://img3.doubanio.com/img/celebrity/medium/52037.jpg"
+                        },
+                        "name": "村田莲尔",
+                        "id": "1314153"
+                    },
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1321061/",
+                        "avatars": {
+                            "small": "http://img3.doubanio.com/f/movie/ca527386eb8c4e325611e22dfcb04cc116d6b423/pics/movie/celebrity-default-small.png",
+                            "large": "http://img7.doubanio.com/f/movie/63acc16ca6309ef191f0378faf793d1096a3e606/pics/movie/celebrity-default-large.png",
+                            "medium": "http://img3.doubanio.com/f/movie/8dd0c794499fe925ae2ae89ee30cd225750457b4/pics/movie/celebrity-default-medium.png"
+                        },
+                        "name": "薮田达也",
+                        "id": "1321061"
+                    },
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1318608/",
+                        "avatars": {
+                            "small": "http://img7.doubanio.com/img/celebrity/small/52040.jpg",
+                            "large": "http://img7.doubanio.com/img/celebrity/large/52040.jpg",
+                            "medium": "http://img7.doubanio.com/img/celebrity/medium/52040.jpg"
+                        },
+                        "name": "竹内敦志",
+                        "id": "1318608"
+                    },
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1022959/",
+                        "avatars": {
+                            "small": "http://img7.doubanio.com/img/celebrity/small/1600.jpg",
+                            "large": "http://img7.doubanio.com/img/celebrity/large/1600.jpg",
+                            "medium": "http://img7.doubanio.com/img/celebrity/medium/1600.jpg"
+                        },
+                        "name": "押井守",
+                        "id": "1022959"
+                    },
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1321067/",
+                        "avatars": {
+                            "small": "http://img7.doubanio.com/img/celebrity/small/1376055442.2.jpg",
+                            "large": "http://img7.doubanio.com/img/celebrity/large/1376055442.2.jpg",
+                            "medium": "http://img7.doubanio.com/img/celebrity/medium/1376055442.2.jpg"
+                        },
+                        "name": "迈克尔·艾里亚斯",
+                        "id": "1321067"
+                    },
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1053554/",
+                        "avatars": {
+                            "small": "http://img7.doubanio.com/img/celebrity/small/48675.jpg",
+                            "large": "http://img7.doubanio.com/img/celebrity/large/48675.jpg",
+                            "medium": "http://img7.doubanio.com/img/celebrity/medium/48675.jpg"
+                        },
+                        "name": "今敏",
+                        "id": "1053554"
+                    },
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1321062/",
+                        "avatars": {
+                            "small": "http://img3.doubanio.com/f/movie/ca527386eb8c4e325611e22dfcb04cc116d6b423/pics/movie/celebrity-default-small.png",
+                            "large": "http://img7.doubanio.com/f/movie/63acc16ca6309ef191f0378faf793d1096a3e606/pics/movie/celebrity-default-large.png",
+                            "medium": "http://img3.doubanio.com/f/movie/8dd0c794499fe925ae2ae89ee30cd225750457b4/pics/movie/celebrity-default-medium.png"
+                        },
+                        "name": "小田扉",
+                        "id": "1321062"
+                    },
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1321063/",
+                        "avatars": {
+                            "small": "http://img3.doubanio.com/f/movie/ca527386eb8c4e325611e22dfcb04cc116d6b423/pics/movie/celebrity-default-small.png",
+                            "large": "http://img7.doubanio.com/f/movie/63acc16ca6309ef191f0378faf793d1096a3e606/pics/movie/celebrity-default-large.png",
+                            "medium": "http://img3.doubanio.com/f/movie/8dd0c794499fe925ae2ae89ee30cd225750457b4/pics/movie/celebrity-default-medium.png"
+                        },
+                        "name": "清水保行",
+                        "id": "1321063"
+                    },
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1005177/",
+                        "avatars": {
+                            "small": "http://img3.doubanio.com/img/celebrity/small/1118.jpg",
+                            "large": "http://img3.doubanio.com/img/celebrity/large/1118.jpg",
+                            "medium": "http://img3.doubanio.com/img/celebrity/medium/1118.jpg"
+                        },
+                        "name": "新海诚",
+                        "id": "1005177"
+                    },
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1321064/",
+                        "avatars": {
+                            "small": "http://img3.doubanio.com/f/movie/ca527386eb8c4e325611e22dfcb04cc116d6b423/pics/movie/celebrity-default-small.png",
+                            "large": "http://img7.doubanio.com/f/movie/63acc16ca6309ef191f0378faf793d1096a3e606/pics/movie/celebrity-default-large.png",
+                            "medium": "http://img3.doubanio.com/f/movie/8dd0c794499fe925ae2ae89ee30cd225750457b4/pics/movie/celebrity-default-medium.png"
+                        },
+                        "name": "西见祥示郎",
+                        "id": "1321064"
+                    },
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1321065/",
+                        "avatars": {
+                            "small": "http://img7.doubanio.com/img/celebrity/small/52041.jpg",
+                            "large": "http://img7.doubanio.com/img/celebrity/large/52041.jpg",
+                            "medium": "http://img7.doubanio.com/img/celebrity/medium/52041.jpg"
+                        },
+                        "name": "中泽一登",
+                        "id": "1321065"
+                    },
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1025671/",
+                        "avatars": {
+                            "small": "http://img7.doubanio.com/img/celebrity/small/9541.jpg",
+                            "large": "http://img7.doubanio.com/img/celebrity/large/9541.jpg",
+                            "medium": "http://img7.doubanio.com/img/celebrity/medium/9541.jpg"
+                        },
+                        "name": "河森正治",
+                        "id": "1025671"
+                    },
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1321066/",
+                        "avatars": {
+                            "small": "http://img3.doubanio.com/f/movie/ca527386eb8c4e325611e22dfcb04cc116d6b423/pics/movie/celebrity-default-small.png",
+                            "large": "http://img7.doubanio.com/f/movie/63acc16ca6309ef191f0378faf793d1096a3e606/pics/movie/celebrity-default-large.png",
+                            "medium": "http://img3.doubanio.com/f/movie/8dd0c794499fe925ae2ae89ee30cd225750457b4/pics/movie/celebrity-default-medium.png"
+                        },
+                        "name": "副岛康文",
+                        "id": "1321066"
+                    },
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1319577/",
+                        "avatars": {
+                            "small": "http://img3.doubanio.com/f/movie/ca527386eb8c4e325611e22dfcb04cc116d6b423/pics/movie/celebrity-default-small.png",
+                            "large": "http://img7.doubanio.com/f/movie/63acc16ca6309ef191f0378faf793d1096a3e606/pics/movie/celebrity-default-large.png",
+                            "medium": "http://img3.doubanio.com/f/movie/8dd0c794499fe925ae2ae89ee30cd225750457b4/pics/movie/celebrity-default-medium.png"
+                        },
+                        "name": "木村真二",
+                        "id": "1319577"
+                    },
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1275927/",
+                        "avatars": {
+                            "small": "http://img7.doubanio.com/img/celebrity/small/15903.jpg",
+                            "large": "http://img7.doubanio.com/img/celebrity/large/15903.jpg",
+                            "medium": "http://img7.doubanio.com/img/celebrity/medium/15903.jpg"
+                        },
+                        "name": "小林治",
+                        "id": "1275927"
+                    },
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1364235/",
+                        "avatars": {
+                            "small": "http://img3.doubanio.com/f/movie/ca527386eb8c4e325611e22dfcb04cc116d6b423/pics/movie/celebrity-default-small.png",
+                            "large": "http://img7.doubanio.com/f/movie/63acc16ca6309ef191f0378faf793d1096a3e606/pics/movie/celebrity-default-large.png",
+                            "medium": "http://img3.doubanio.com/f/movie/8dd0c794499fe925ae2ae89ee30cd225750457b4/pics/movie/celebrity-default-medium.png"
+                        },
+                        "name": "林明美",
+                        "id": "1364235"
+                    }
+                ],
+                "year": "2007",
+                "images": {
+                    "small": "http://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2225268939.jpg",
+                    "large": "http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2225268939.jpg",
+                    "medium": "http://img3.doubanio.com/view/movie_poster_cover/spst/public/p2225268939.jpg"
+                },
+                "alt": "https://movie.douban.com/subject/3240828/",
+                "id": "3240828"
+            }
+        },
+        {
+            "roles": [
+                "导演",
+                "剪辑",
+                "摄影",
+                "美术设计",
+                "制片",
+                "视觉特效",
+                "编剧"
+            ],
+            "subject": {
+                "rating": {
+                    "max": 10,
+                    "average": 8.4,
+                    "stars": "45",
+                    "min": 0
+                },
+                "genres": [
+                    "动画",
+                    "剧情",
+                    "爱情"
+                ],
+                "title": "秒速5厘米",
+                "casts": [
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1015108/",
+                        "avatars": {
+                            "small": "http://img7.doubanio.com/img/celebrity/small/10000.jpg",
+                            "large": "http://img7.doubanio.com/img/celebrity/large/10000.jpg",
+                            "medium": "http://img7.doubanio.com/img/celebrity/medium/10000.jpg"
+                        },
+                        "name": "水桥研二",
+                        "id": "1015108"
+                    },
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1322235/",
+                        "avatars": {
+                            "small": "http://img3.doubanio.com/f/movie/ca527386eb8c4e325611e22dfcb04cc116d6b423/pics/movie/celebrity-default-small.png",
+                            "large": "http://img7.doubanio.com/f/movie/63acc16ca6309ef191f0378faf793d1096a3e606/pics/movie/celebrity-default-large.png",
+                            "medium": "http://img3.doubanio.com/f/movie/8dd0c794499fe925ae2ae89ee30cd225750457b4/pics/movie/celebrity-default-medium.png"
+                        },
+                        "name": "近藤好美 ",
+                        "id": "1322235"
+                    },
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1002382/",
+                        "avatars": {
+                            "small": "http://img3.doubanio.com/f/movie/ca527386eb8c4e325611e22dfcb04cc116d6b423/pics/movie/celebrity-default-small.png",
+                            "large": "http://img7.doubanio.com/f/movie/63acc16ca6309ef191f0378faf793d1096a3e606/pics/movie/celebrity-default-large.png",
+                            "medium": "http://img3.doubanio.com/f/movie/8dd0c794499fe925ae2ae89ee30cd225750457b4/pics/movie/celebrity-default-medium.png"
+                        },
+                        "name": "尾上绫华",
+                        "id": "1002382"
+                    }
+                ],
+                "collect_count": 307669,
+                "original_title": "秒速5センチメートル",
+                "subtype": "movie",
+                "directors": [
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1005177/",
+                        "avatars": {
+                            "small": "http://img3.doubanio.com/img/celebrity/small/1118.jpg",
+                            "large": "http://img3.doubanio.com/img/celebrity/large/1118.jpg",
+                            "medium": "http://img3.doubanio.com/img/celebrity/medium/1118.jpg"
+                        },
+                        "name": "新海诚",
+                        "id": "1005177"
+                    }
+                ],
+                "year": "2007",
+                "images": {
+                    "small": "http://img7.doubanio.com/view/movie_poster_cover/ipst/public/p982896012.jpg",
+                    "large": "http://img7.doubanio.com/view/movie_poster_cover/lpst/public/p982896012.jpg",
+                    "medium": "http://img7.doubanio.com/view/movie_poster_cover/spst/public/p982896012.jpg"
+                },
+                "alt": "https://movie.douban.com/subject/2043546/",
+                "id": "2043546"
+            }
+        },
+        {
+            "roles": [
+                "演员",
+                "导演",
+                "剪辑",
+                "摄影",
+                "配音",
+                "美术设计",
+                "编剧"
+            ],
+            "subject": {
+                "rating": {
+                    "max": 10,
+                    "average": 8.3,
+                    "stars": "45",
+                    "min": 0
+                },
+                "genres": [
+                    "动画",
+                    "短片",
+                    "爱情"
+                ],
+                "title": "星之声",
+                "casts": [
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1005177/",
+                        "avatars": {
+                            "small": "http://img3.doubanio.com/img/celebrity/small/1118.jpg",
+                            "large": "http://img3.doubanio.com/img/celebrity/large/1118.jpg",
+                            "medium": "http://img3.doubanio.com/img/celebrity/medium/1118.jpg"
+                        },
+                        "name": "新海诚",
+                        "id": "1005177"
+                    },
+                    {
+                        "alt": null,
+                        "avatars": null,
+                        "name": "武藤寿美 Sumi Mutoh",
+                        "id": null
+                    },
+                    {
+                        "alt": null,
+                        "avatars": null,
+                        "name": "Mika Shinohara",
+                        "id": null
+                    }
+                ],
+                "collect_count": 32362,
+                "original_title": "ほしのこえ",
+                "subtype": "movie",
+                "directors": [
+                    {
+                        "alt": "https://movie.douban.com/celebrity/1005177/",
+                        "avatars": {
+                            "small": "http://img3.doubanio.com/img/celebrity/small/1118.jpg",
+                            "large": "http://img3.doubanio.com/img/celebrity/large/1118.jpg",
+                            "medium": "http://img3.doubanio.com/img/celebrity/medium/1118.jpg"
+                        },
+                        "name": "新海诚",
+                        "id": "1005177"
+                    }
+                ],
+                "year": "2002",
+                "images": {
+                    "small": "http://img7.doubanio.com/view/movie_poster_cover/ipst/public/p456696285.jpg",
+                    "large": "http://img7.doubanio.com/view/movie_poster_cover/lpst/public/p456696285.jpg",
+                    "medium": "http://img7.doubanio.com/view/movie_poster_cover/spst/public/p456696285.jpg"
+                },
+                "alt": "https://movie.douban.com/subject/1463872/",
+                "id": "1463872"
+            }
+        }
+    ],
+    "gender": "男",
+    "avatars": {
+        "small": "http://img3.doubanio.com/img/celebrity/small/1118.jpg",
+        "large": "http://img3.doubanio.com/img/celebrity/large/1118.jpg",
+        "medium": "http://img3.doubanio.com/img/celebrity/medium/1118.jpg"
+    },
+    "id": "1005177",
+    "aka": [
+        "新津诚(本名)"
+    ],
+    "name_en": "Makoto Shinkai",
+    "born_place": "日本,长野,南佐久",
+    "alt": "https://movie.douban.com/celebrity/1005177/"
+}

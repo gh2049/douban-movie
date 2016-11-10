@@ -12,67 +12,68 @@ export default class Home extends Component {
 
     if(home.getValue) return
     
-    fetchHome()
+    fetchHome.call(null)
   }
   render() {
     const {home} = this.props
+    let subjectArr = []
+
     if(!home.getValue) return (<div>fetching</div>)
+    
+    const subjects = home.text.subjects
+
+    const getActor = function() {
+      return this.casts.map((cast,index) => {
+        return cast.name + ' / '
+      })
+    }
+
+    subjectArr = subjects.map((subject,index) => {
+      return (          
+        <article className="unit-wrap">
+            <div className="list-wrap">
+              <div className="hot-item">
+                <a href="#"></a>
+                <div className="item-box">
+                  <span className="item-img">
+                    <img src={subject.images.medium} alt={subject.title}/>
+                  </span>
+                  <div className="title-set">
+                    <div className="title-content">
+                      <span>{subject.title}</span>
+                      <span> {subject.title === subject.original_title 
+                        ? ""
+                        : "/ " + subject.original_title}</span>
+                    </div>
+                  </div>
+                  <div className="content-wrap">
+                      <p className="pl-content">
+                      {subject.year}
+                      {getActor.call(subject)}</p>
+                      <div>
+                          评分 ： {subject.rating.average}
+                      </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </article>
+      )
+    })
+
     return (
       <div className="wrapper">
         <div className="banner-unit"></div>
         <section className="list-unit hot-movies">
-          
           <header className="title-wrap">
             <h2>
               <a href="#"></a>
-              <span>豆瓣全部新片</span>
+              <span>正在热映</span>
             </h2>
-          </header>
-            
-          <article className="unit-wrap">
-            <div className="list-wrap">
-              <div className="hot-item">
-                <a href="#"></a>
-                <div className="item-box">
-                  <span className="item-img">
-                    <img src={jpg1} alt=""/>
-                  </span>
-                  <div className="title-set">
-                    <div className="title-content">
-                      <span>假如蜗牛有爱情/</span>
-                      <span>when a snail fails in love/ when a snail fails in love</span>
-                    </div>
-                  </div>
-                  <div className="content-wrap">
-                      <p className="pl-content">2016-10-24(中国大陆) / 王凯 / 王子文 / 徐悦 / 于恒 / 赵圆瑗 / 武笑羽 / 张棪琰 / 张晓谦 / 蒋冰 / 霍亚明 / 焦体怡 / 江森 / 张陆 / 李龙君 / 王禹铮 / 张野 / 米特 / 李培铭 / 蔡珩 / 谭希和 / 王永强 / 延翔 / 中国大陆 / 张开宙 / 34分钟 / 剧情...</p>
-                    </div>              
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article className="unit-wrap">
-            <div className="list-wrap">
-              <div className="hot-item">
-                <a href="#"></a>
-                <div className="item-box">
-                  <span className="item-img">
-                    <img src={jpg1} alt=""/>
-                  </span>
-                  <div className="title-set">
-                    <div className="title-content">
-                      <span>假如蜗牛有爱情/</span>
-                      <span>when a snail fails in love/ when a snail fails in love</span>
-                    </div>
-                  </div>
-                  <div className="content-wrap">
-                      <p className="pl-content">2016-10-24(中国大陆) / 王凯 / 王子文 / 徐悦 / 于恒 / 赵圆瑗 / 武笑羽 / 张棪琰 / 张晓谦 / 蒋冰 / 霍亚明 / 焦体怡 / 江森 / 张陆 / 李龙君 / 王禹铮 / 张野 / 米特 / 李培铭 / 蔡珩 / 谭希和 / 王永强 / 延翔 / 中国大陆 / 张开宙 / 34分钟 / 剧情...</p>
-                    </div>              
-                </div>
-              </div>
-
-            </div>
-          </article>
+          </header>         
+          {subjectArr}
+          
         </section>
       </div>
     )

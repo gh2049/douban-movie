@@ -21,12 +21,11 @@ export class Navdrawer extends Component {
 					</div>
 					<div>
 						<ul>
-							<li onClick={toggleNavdrawer}><IndexLink to="/home">热门 </IndexLink></li>
-							<li onClick={toggleNavdrawer}><Link to="/counter">Top250 </Link></li>
-							<li onClick={toggleNavdrawer}><Link to="/zen">影评 </Link></li>
-							<li onClick={toggleNavdrawer}><Link to="/tv">电视剧 </Link></li>
-							<li onClick={toggleNavdrawer}><Link to="/elapse">分类 </Link></li>							
-							<li onClick={toggleNavdrawer}><Link to="/subject/233">你的名字 </Link></li>
+							<li onClick={toggleNavdrawer}><IndexLink to="/home">正在上映 </IndexLink></li>
+							<li onClick={toggleNavdrawer}><Link to="/coming">即将上映</Link></li>
+							<li onClick={toggleNavdrawer}><Link to="/top250">Top250 </Link></li>
+							<li onClick={toggleNavdrawer}><Link to="/celebrity/123">celebrity </Link></li>							
+							<li onClick={toggleNavdrawer}><Link to="/subject/233">subject </Link></li>
 						</ul>
 					</div>
 				</section>
@@ -42,7 +41,10 @@ export class Navdrawer extends Component {
 			const history = this.props.history
 			history.push('/search/' + searchNode.value)
 			this.props.toggleNavdrawer()
-			//or use this._reactInternalInstance._context.router.push('/zen')
+			// it warns that 'props.history' and 'context.history' are deprecated
+			// and recommands the 'context.router'
+			// so use another function as below
+			// this._reactInternalInstance._context.router.push('/zen')
 			return false
 		})
 	}

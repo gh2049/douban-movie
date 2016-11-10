@@ -43,7 +43,6 @@
 - 影人条目 : /v2/movie/celebrity/:id
 - 电影条目搜索 : /v2/movie/search?q={text}
 - Top250 :  /v2/movie/top250
-- 北美票房榜 ： /v2/movie/us_box
 
 ## 感谢
 [React脚手架](https://github.com/bodyno/react-starter-kit)

@@ -3,25 +3,13 @@ $rem: 67.5/rem;
 .wrapper {
 	box-sizing: content-box;
 	background: #f2f2f2;
-	width: 100%;
-	height: 100%;
 }
 .banner-unit {
 }
 .list-unit {
 	padding: 0 10px;
 }
-.title-wrap {
-	padding: 10px 15px 10px 5px;
-}
-.title-wrap h2 {
-	margin: 0;
-	font-size: 15px;
-	color: #8e8e8e;
-	background:url('./assets/clickable.png') no-repeat;
-	background-position: right;
-  background-size: 5.5px 10px;
-}
+
 .unit-wrap {
 	background-color: #fff;
 	border: 1px solid white;
